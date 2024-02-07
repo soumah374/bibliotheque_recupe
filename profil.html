@@ -1,0 +1,134 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="row gutter-20">
+        <div class="container">
+            <div class="col-lg-12">
+                <!-- Panel Start -->
+                <div class="panel profile-cover">
+                    <div class="profile-cover__img">
+                        {% if accounts.photo %}
+                        <img src="{{accounts.photo.url}}" alt="">
+                        {% else %}
+                        <img src="{% static 'admin/assets/img/avatars/01_150x150.png' %}" alt="">
+                        {% endif %}
+                        <h3 class="h3">{{accounts.prenoms}} {{accounts.nom}}</h3>
+                    </div>
+
+                    <div class="profile-cover__action" 
+                    {% if user.photo %}
+                    data-bg-img="{{accounts.photo.url}}"
+                    {% else %}
+                    data-bg-img="{% static 'admin/assets/img/covers/01_800x150.jpg' %}"
+                    {% endif %}
+
+                     data-overlay="0.3">
+                        <button class="btn btn-rounded btn-info">
+                            <i class="fa fa-plus"></i>
+                            <span>Follow</span>
+                        </button>
+    
+                        <button class="btn btn-rounded btn-info">
+                            <i class="fa fa-comment"></i>
+                            <span>Message</span>
+                        </button>
+                    </div>
+    
+                    <div class="profile-cover__info">
+                        <ul class="nav">
+                            <li><strong>26</strong>Projets</li>
+                            <li><strong>33</strong>Followers</li>
+                            <li><strong>136</strong>Following</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Panel End -->
+    
+                <!-- Panel Start -->
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Informations Personnelles</h3>
+                    </div>
+    
+                    <div class="panel-content panel-activity">
+                        <form action="{% url 'accounts:update_profile' user.slug %}" method="post" enctype="multipart/form-data" class="panel-activity__status">
+                            {% csrf_token %}
+                            <div class="row">
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.prenoms|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.nom|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.adresse|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.email|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.tel|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.profession|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.sexe|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.nature_client|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.departement|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-6">
+                                    <label>
+                                        {{ form.niveau|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>
+                                        {{ form.matricule|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>
+                                        {{ form.photo|as_crispy_field }}
+                                    </label>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label>
+                                        {{ form.pays|as_crispy_field }}
+                                    </label>
+                                </div>
+                            </div><br>
+                            <button class="btn btn-sm btn-rounded btn-success">Modifier</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- Panel End -->
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock content %}

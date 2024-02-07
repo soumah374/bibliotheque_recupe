@@ -1,0 +1,97 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-solid fa-rectangle-ad">
+                <h3 class="h3">Rechercher un livre <a href="#" class="btn btn-sm btn-outline-info">Manage Products</a> </h3>
+            </div>
+            <div class="actions">
+                <form action="#" class="search flex-wrap flex-md-nowrap">
+                    <input type="text" class="form-control" placeholder="Titre" required>
+                    <select name="select" class="form-control">
+                        <option value="" selected>Auteur </option>
+                    </select>
+                    <button type="submit" class="btn btn-rounded"><i class="fa fa-search"></i></button>
+                </form>
+
+                <a href="{% url 'livre:create'%}" class="addProduct btn btn-lg btn-rounded btn-warning">Ajouter Un Livre</a>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+        <!-- Records List Start -->
+        <div class="records--list" data-title="Liste des Livres">
+            <table id="recordsListView">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th class="not-sortable">Image</th>
+                        <th>Catégorie</th>
+                        <th>Titre</th>
+                        <th>Sous Titre</th>
+                        <th>Auteur</th>
+                        <th>Année</th>
+                        <th>Langue</th>
+                        <th>Statut</th>
+                        <th class="not-sortable">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for li in livre %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>
+                            {% if li.photo_livre %}
+                            <img height="100" width="100" src=" {{ li.photo_livre.url }} " alt="">
+                            {% endif %}
+                        </td>
+                        <td>{{li.categorie}}</td>
+                        <td>{{li.titre}}</td>
+                        <td>{{li.sous_titre|truncatechars:7}}</td>
+                        <td>{{li.auteur}}</td>
+                        <td>{{li.annee}}</td>
+                        <td>{{li.langue}}</td>
+                        <td>
+                            <form method="post" action="{% url 'livre:update_publiciter' %}">
+                                {% csrf_token %}
+                                <input type="text" name="publier" value="{{li.publier}}" hidden>
+                                <input type="text" name="idpublier" value="{{li.id}}" hidden>
+                                {% if li.publier %}
+                                <button type="submit" class="label label-success">Publié</button>
+                                {% else %}
+                                <button type="submit" class="label label-warning">Non Publié</button>
+                                {% endif %}
+                            </form>
+                        </td>
+                        <td>
+                            <div class="dropleft">
+                                <a href="#" class="btn-link" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+
+                                <div class="dropdown-menu">
+                                    <a href="{% url 'livre:detail' li.slug %}" class="dropdown-item">DETAIL</a>
+                                    <a href="{% url 'livre:update' li.slug %}" class="dropdown-item">MODIFIER</a>
+                                    <form action="{% url 'livre:delete' li.slug %}" method="post"
+                                        style="display: inline" data-bs-placement="top" data-bs-toggle="tooltip"
+                                        title="Supprimer">
+                                        {% csrf_token %}
+                                        <button class="btn  btn-sm btn- delete-confirm dropdown-item"
+                                            type="submit">Supprimer</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Records List End -->
+    </div>
+</section>
+{% endblock content %}

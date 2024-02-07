@@ -1,0 +1,51 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="row gutter-20">
+        <div class="col-md-12">
+            <!-- Panel Start -->
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Modifier La vente du livre</h3>
+                </div>
+                <div class="panel-content">
+                    <form action="" method="post" class="needs-validation" novalidate enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.livre|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.client|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.date_vente|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.prix_vente|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.sum_payer|as_crispy_field}}
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-md btn-rounded btn-success">Modifier</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Panel End -->
+        </div>
+    </div>
+</section>
+{% endblock content %}

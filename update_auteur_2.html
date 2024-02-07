@@ -1,0 +1,65 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+<!-- Main Content Start -->
+{% block content %}
+<section class="main--content">
+    <div class="row gutter-20">
+        <div class="col-md-12">
+            <!-- Panel Start -->
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Modifier un auteur</h3>
+                </div>
+                <div class="panel-content">
+                    <form action="" method="post" class="needs-validation" novalidate enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.nom|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.prenoms|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label>
+                                    {{form.sexe|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.nationalite|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.pays|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.date_naiss|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label>
+                                    {{form.date_deces|as_crispy_field}}
+                                </label>
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-md btn-rounded btn-success">Modifier</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Panel End -->
+        </div>
+    </div>
+</section>
+{% endblock content %}
+<!-- Main Content End -->

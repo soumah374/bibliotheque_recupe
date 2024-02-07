@@ -1,0 +1,90 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-solid fa-rectangle-ad">
+                <h3 class="h3">Rechercher un Emprunt<a href="#" class="btn btn-sm btn-outline-info">Manage Products</a></h3>
+            </div>
+
+            <div class="actions">
+                <form action="#" class="search flex-wrap flex-md-nowrap">
+                    <input type="text" class="form-control" placeholder="Catégorie" required>
+                    <select name="select" class="form-control">
+                        <option value="" selected>Client </option>
+                    </select>
+                    <button type="submit" class="btn btn-rounded"><i class="fa fa-search"></i></button>
+                </form>
+
+                <a href="{% url 'emprunt:create'%}" class="addProduct btn btn-lg btn-rounded btn-warning">Ajouter Un Emprunt</a>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+        <!-- Records List Start -->
+        <div class="records--list" data-title="Liste des Emprunts">
+            <table id="recordsListView">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Catégorie</th>
+                        <th>Client</th>
+                        <th> Date Emprunt</th>
+                        <th>Date Retour</th>
+                        <th>Etat du Livre</th>
+                        <th>Rendu</th>
+                        <th class="not-sortable">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for emp in emprunts %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>{{emp.categorie}}</td>
+                        <td>{{emp.client}}</td>
+                        <td>{{emp.date_emprunt}}</td>
+                        <td>{{emp.date_retour}}</td>
+                        <td>{{emp.etat_livre}}</td>
+                        <td>
+                            <form method="post" action="{% url 'emprunt:update_statut' %}">
+                                {% csrf_token %}
+                                <input type="text" name="statut" value="{{emp.statut}}" hidden>
+                                <input type="text" name="id_statut" value="{{emp.id}}" hidden>
+                                {% if emp.statut %}
+                                <button type="submit" class="label label-success">Oui</button>
+                                {% else %}
+                                <button type="submit" class="label label-warning">Non </button>
+                                {% endif %}
+                            </form>
+                        </td>
+                        <td>
+                            <div class="dropleft">
+                                <a href="#" class="btn-link" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+
+                                <div class="dropdown-menu">
+                                    <a href="{% url 'emprunt:detail' emp.slug %}" class="dropdown-item">DETAIL</a>
+                                    <a href="{% url 'emprunt:update' emp.slug %}" class="dropdown-item">MODIFIER</a>
+                                    <form action="{% url 'emprunt:delete' emp.slug %}" method="post"
+                                        style="display: inline" data-bs-placement="top" data-bs-toggle="tooltip"
+                                        title="Supprimer">
+                                        {% csrf_token %}
+                                        <button class="btn  btn-sm btn- delete-confirm dropdown-item"
+                                            type="submit">Supprimer</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Records List End -->
+    </div>
+</section>
+{% endblock content %}

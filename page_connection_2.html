@@ -1,0 +1,68 @@
+{% extends "index.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="page-content">
+    <!-- inner page banner -->
+    <div class="dz-bnr-inr overlay-secondary-dark dz-bnr-inr-sm"
+        style="background-image:url(images/background/bg3.jpg);">
+        <div class="container">
+            <div class="dz-bnr-inr-entry">
+                <h1>Page de Connexion</h1>
+                <nav aria-label="breadcrumb" class="breadcrumb-row">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'index' %}"> Accueil</a></li>
+                        <li class="breadcrumb-item">Connexion</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- inner page banner End-->
+
+    <!-- contact area -->
+    <section class="content-inner shop-account">
+        <!-- Product -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="login-area">
+                        <div class="tab-content">
+                            <h4>Nouveau Client</h4>
+                            <p class="font-weight-600">Explorez un monde infini de connaissances en créant votre compte
+                                à la bibliothèque Universitaire de <strong>GAMAL ABDEL NASSER DE CONAKRY</strong> en
+                                ligne. Accédez à une vaste collection de livres, découvrez de nouvelles œuvres et suivez
+                                vos auteurs préférés. La porte du savoir vous attend – créez votre compte dès maintenant !
+                                </p>
+                            <a class="btn btn-primary btnhover m-r5 button-lg radius-no"
+                                href="{% url 'inscription' %}">CREER UN COMPTE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="login-area">
+                        <div class="tab-content nav">
+                            <form method='POST'  class="tab-pane active col-12">
+                                {% csrf_token %}
+                                <h4 class="text-secondary">CONNECTEZ - VOUS</h4>
+                                <p class="font-weight-600">Si vous avez un compte chez nous, veuillez vous connecter.
+                                </p>
+                                <div class="mb-4">
+                                    {{form|crispy}}
+                                </div>
+                                <div class="text-left">
+                                    <button type="submit" class="btn btn-primary btnhover me-2">se connecter</button>
+                                    <a href="{% url 'accounts:password_reset' %}" class="m-l5"><i class="fas fa-unlock-alt"></i> Mot de passe oublié</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product END -->
+    </section>
+    <!-- contact area End-->
+</div>
+{% endblock content %}

@@ -1,0 +1,88 @@
+{% load static %}
+<section class="content-inner-1 bg-grey reccomend">
+    <div class="container">
+        <div class="section-head text-center">
+            <h2 class="title">Recommandations</h2>
+            <p>Chers passionnés de lecture, bienvenue à Découvertes Littéraires, l'endroit où chaque page tourne une aventure et chaque livre offre un nouveau monde à explorer. Nous sommes ravis de partager avec vous une recommandation spéciale qui, nous l'espérons, enchantera vos sens littéraires.</p>
+        </div>
+        <!-- Swiper -->
+        <div class="swiper-container swiper-two">
+            <div class="swiper-wrapper">
+
+                {% for li in livre %}
+                {% if li.publier %}
+                <div class="swiper-slide">
+                    <div class="books-card style-1 wow fadeInUp" data-wow-delay="0.{{forloop.counter}}s">
+                        <div class="dz-media">
+                            {% if li.photo_livre %}
+                            <img src="{{li.photo_livre.url}}" alt="book">
+                            <!-- <img src="{% static 'Front/images/books/grid/book6.jpg' %}" alt="book"> -->
+                            {% endif %}
+                        </div>
+                        <div class="dz-content">
+                            <h4 class="title"> {{li.titre}} </h4>
+                            <span class="price"> {{li.prix_vente}} </span>
+                            <a href="" class="btn btn-secondary btnhover btnhover2"><i
+                                    class="flaticon-shopping-cart-1 m-r10"></i>Ajouter au panier</a>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- icon-box1 -->
+<section class="content-inner-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="icon-bx-wraper style-1 m-b20 text-center">
+                    <div class="icon-bx-sm m-b10">
+                        <i class="flaticon-power icon-cell"></i>
+                    </div>
+                    <div class="icon-content">
+                        <h5 class="dz-title m-b10">Livraison Rapide</h5>
+                        <p>Notre équipe dévouée s'engage à offrir bien plus qu'une simple livraison. C'est une promesse de rapidité, d'efficacité et de précision à chaque étape du parcours.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="icon-bx-wraper style-1 m-b20 text-center">
+                    <div class="icon-bx-sm m-b10">
+                        <i class="flaticon-shield icon-cell"></i>
+                    </div>
+                    <div class="icon-content">
+                        <h5 class="dz-title m-b10">Paiement Sécurisé</h5>
+                        <p>Dans notre espace de Paiement Sécurisé, la protection de vos données est notre priorité. Shoppez en toute confiance, chaque transaction est une garantie de sécurité absolue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="icon-bx-wraper style-1 m-b20 text-center">
+                    <div class="icon-bx-sm m-b10">
+                        <i class="flaticon-like icon-cell"></i>
+                    </div>
+                    <div class="icon-content">
+                        <h5 class="dz-title m-b10">Meilleure Qualité</h5>
+                        <p>Notre univers dédié à la qualité exceptionnelle. Découvrez l'excellence à chaque achat, où chaque produit incarne notre engagement envers la meilleure qualité.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
+                <div class="icon-bx-wraper style-1 m-b20 text-center">
+                    <div class="icon-bx-sm m-b10">
+                        <i class="flaticon-star icon-cell"></i>
+                    </div>
+                    <div class="icon-content">
+                        <h5 class="dz-title m-b10">Retour Garanti</h5>
+                        <p>Optez pour la tranquillité d'esprit avec notre garantie de retour inégalée. Chez nous, chaque achat est assorti de l'assurance que votre satisfaction est notre priorité absolue.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- icon-box1 End-->

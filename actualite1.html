@@ -1,0 +1,104 @@
+{% load static %}
+<section class="content-inner-2">
+    <div class="container">
+        <div class="section-head text-center">
+            <h2 class="title">Actualités</h2>
+            <p>Bienvenue aux Actualités du Jour, votre source quotidienne d'informations précises et pertinentes. Alors que le monde continue d'évoluer et de présenter des défis et des triomphes, nous sommes là pour vous apporter une perspective éclairée sur les événements qui façonnent notre réalité.</p>
+        </div>
+        <div class="swiper-container blog-swiper">
+            <div class="swiper-wrapper">
+
+                {% for actu in actualite %}
+                {% if actu.publier %}
+                <div class="swiper-slide">
+                    <div class="dz-blog style-1 bg-white m-b30 wow fadeInUp" data-wow-delay="0.{{forloop.counter}}s">
+                        <div class="dz-media">
+                            {% if actu.photo %}
+                            <img src=" {{ actu.photo.url }} " alt="">
+                            {% endif %}
+                            <!-- <a href="blog-detail.html"><img src="{% static 'Front/images/blog/grid/blog4.jpg' %}" alt="/"></a> -->
+                        </div>
+                        <div class="dz-info p-3">
+                            <h6 class="dz-title">
+                                <a href="blog-detail.html">{{actu.titre}}</a>
+                            </h6>
+                            <p class="m-b0">{{actu.sous_titre}}</p>
+                            <div class="dz-meta meta-bottom mt-3 pt-3">
+                                <ul class="">
+                                    <li class="post-date"><i class="far fa-calendar fa-fw m-r10"></i>{{actu.date_pub}}</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+                {% endfor %}
+
+                <!-- <div class="swiper-slide">
+                    <div class="dz-blog style-1 bg-white m-b30 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="dz-media">
+                            <a href="blog-detail.html"><img src="{% static 'Front/images/blog/grid/blog3.jpg' %}" alt="/"></a>
+                        </div>
+                        <div class="dz-info p-3">
+                            <h6 class="dz-title">
+                                <a href="blog-detail.html">10 Things you must know to improve your reading
+                                    skills</a>
+                            </h6>
+                            <p class="m-b0">Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod
+                                tempor</p>
+                            <div class="dz-meta meta-bottom mt-3 pt-3">
+                                <ul class="">
+                                    <li class="post-date"><i class="far fa-calendar fa-fw m-r10"></i>18
+                                        July, 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="dz-blog style-1 bg-white m-b30 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="dz-media">
+                            <a href="blog-detail.html"><img src="{% static 'Front/images/blog/grid/blog2.jpg' %}" alt="/"></a>
+                        </div>
+                        <div class="dz-info p-3">
+                            <h6 class="dz-title">
+                                <a href="blog-detail.html">Benefits of reading: Smart, Diligent, Happy,
+                                    Intelligent</a>
+                            </h6>
+                            <p class="m-b0">Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod
+                                tempor</p>
+                            <div class="dz-meta meta-bottom mt-3 pt-3">
+                                <ul class="">
+                                    <li class="post-date"><i class="far fa-calendar fa-fw m-r10"></i>7 June,
+                                        2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="dz-blog style-1 bg-white m-b30 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="dz-media">
+                            <a href="blog-detail.html"><img src="{% static 'Front/images/blog/grid/blog1.jpg' %}" alt="/"></a>
+                        </div>
+                        <div class="dz-info p-3">
+                            <h6 class="dz-title">
+                                <a href="blog-detail.html">We Must know why reading is important for
+                                    children?</a>
+                            </h6>
+                            <p class="m-b0">Lorem ipsum dolor sit amet, consectetur adipiscing do eiusmod
+                                tempor</p>
+                            <div class="dz-meta meta-bottom mt-3 pt-3">
+                                <ul class="">
+                                    <li class="post-date"><i class="far fa-calendar fa-fw m-r10"></i>30 May,
+                                        2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+</section>

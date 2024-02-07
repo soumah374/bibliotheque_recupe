@@ -1,0 +1,129 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="row gutter-20">
+        <div class="col-md-12">
+            <!-- Panel Start -->
+            <div class="panel">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Modifier une actualité</h3>
+                </div>
+                <div class="panel-content">
+                    <form action="" method="post" class="needs-validation" novalidate enctype="multipart/form-data">
+                        {% csrf_token %}
+                        <div class="row">
+
+                            <div id="pub" class="form-group col-md-6">
+                                <label>
+                                    {{form.type_pub|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="livre_event form-group col-md-6">
+                                <label>
+                                    {{form.titre|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="livre_event form-group col-md-6">
+                                <label>
+                                    {{form.sous_titre|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="actu form-group col-md-6">
+                                <label>
+                                    {{form.date_pub|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="actu form-group col-md-6">
+                                <label>
+                                    {{form.lieu|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div id="" class="temoignage form-group col-md-6" style="display: none;">
+                                <label>
+                                    {{form.prenoms|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div id="" class="temoignage form-group col-md-6" style="display: none;">
+                                <label>
+                                    {{form.nom|as_crispy_field}}
+                                </label>
+                            </div>
+                            <div id="" class="temoignage form-group col-md-6" style="display: none;">
+                                <label>
+                                    {{form.profession|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="commun form-group col-md-6">
+                                <label>
+                                    {{form.photo|as_crispy_field}}
+                                </label>
+                            </div>
+
+                            <div id="" class="commun form-group col-md-12">
+                                <label>
+                                    {{form.detail|as_crispy_field}}
+                                </label>
+                            </div>
+
+
+                        </div>
+                        <button type="submit" class="btn btn-md btn-rounded btn-success">Modifier</button>
+                    </form>
+                </div>
+            </div>
+            <!-- Panel End -->
+        </div>
+    </div>
+</section>
+{% endblock content %}
+{% block scripts %}
+
+<script>
+    $(document).ready(function(){
+    // Sélectionnez les éléments une seule fois pour éviter de les rechercher à chaque changement
+    let $livreEvent = $('.livre_event');
+    let $actu = $('.actu');
+    let $temoins = $('.temoignage');
+    let $commun = $('.commun');
+    let $pub = $('#pub');
+    let $nouvelleValeur = 'form-group col-md-12';
+
+    // Utilisez une seule fonction pour gérer l'affichage en fonction du type_pub
+    function afficherSections(type_pub) {
+        // Masquez tous les éléments par défaut
+        $livreEvent.hide();
+        $actu.hide();
+        $temoins.hide();
+        $commun.hide();
+        // Affichez les éléments en fonction du type_pub sélectionné
+        if (type_pub === 'Actualite' || type_pub === 'Evenement') {
+            $actu.show();
+            $livreEvent.show();
+            $commun.show();
+        } else if (type_pub === 'Temoignage') {
+            $temoins.show();
+            $commun.show();
+            $pub.attr('class',$nouvelleValeur);
+        } else {
+            $actu.show();
+            $livreEvent.show();
+            $commun.show();
+        }
+    }
+    // Attachez la fonction afficherSections à l'événement de changement
+    $('#id_type_pub').change(function(){
+        let type_pub = $(this).val();
+        afficherSections(type_pub);
+    });
+    // Appel initial pour garantir que la bonne section est affichée au chargement de la page
+    afficherSections($('#id_type_pub').val());
+});
+</script>
+{% endblock scripts %}

@@ -1,0 +1,61 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-solid fa-rectangle-ad">
+                <h3 class="h3">Rechercher un(e) Abonné(e)<a href="#" class="btn btn-sm btn-outline-info">Manage Products</a></h3>
+            </div>
+
+            <div class="actions">
+                <form action="#" class="search flex-wrap flex-md-nowrap">
+                    <input type="text" class="form-control" placeholder="Email" required>
+                    <select name="select" class="form-control">
+                        <option value="" selected>Date D'abonnement </option>
+                    </select>
+                    <button type="submit" class="btn btn-rounded"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+        <!-- Records List Start -->
+        <div class="records--list" data-title="Liste des Abonné(e)s">
+            <table id="recordsListView">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Email Abonné(e)s</th>
+                        <th>Date d'Envoie</th>
+                        <th class="not-sortable">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for notif in notif_abonnes %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>{{actu.email_abonne}}</td>
+                        <td>{{actu.created_at}}</td>
+                        <td>
+                            <div class="dropleft">
+                                <a href="#" class="btn-link" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+
+                                <div class="dropdown-menu">
+                                    <a href="{% url 'abonne-detail' notif.slug %}" class="dropdown-item">DETAIL</a>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Records List End -->
+    </div>
+</section>
+{% endblock content %}

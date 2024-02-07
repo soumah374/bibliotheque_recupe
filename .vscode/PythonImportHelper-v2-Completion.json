@@ -1,0 +1,2204 @@
+[
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "BaseCommand",
+        "importPath": "django.core.management.base",
+        "description": "django.core.management.base",
+        "isExtraImport": true,
+        "detail": "django.core.management.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_command_line_option",
+        "importPath": "django.core.management.utils",
+        "description": "django.core.management.utils",
+        "isExtraImport": true,
+        "detail": "django.core.management.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_max_test_processes",
+        "importPath": "django.test.runner",
+        "description": "django.test.runner",
+        "isExtraImport": true,
+        "detail": "django.test.runner",
+        "documentation": {}
+    },
+    {
+        "label": "NullTimeKeeper",
+        "importPath": "django.test.utils",
+        "description": "django.test.utils",
+        "isExtraImport": true,
+        "detail": "django.test.utils",
+        "documentation": {}
+    },
+    {
+        "label": "TimeKeeper",
+        "importPath": "django.test.utils",
+        "description": "django.test.utils",
+        "isExtraImport": true,
+        "detail": "django.test.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_runner",
+        "importPath": "django.test.utils",
+        "description": "django.test.utils",
+        "isExtraImport": true,
+        "detail": "django.test.utils",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "Livre",
+        "importPath": "livre.models",
+        "description": "livre.models",
+        "isExtraImport": true,
+        "detail": "livre.models",
+        "documentation": {}
+    },
+    {
+        "label": "Livre",
+        "importPath": "livre.models",
+        "description": "livre.models",
+        "isExtraImport": true,
+        "detail": "livre.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "importPath": "accounts.models",
+        "description": "accounts.models",
+        "isExtraImport": true,
+        "detail": "accounts.models",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "slugify",
+        "importPath": "django.utils.text",
+        "description": "django.utils.text",
+        "isExtraImport": true,
+        "detail": "django.utils.text",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "reverse_lazy",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_model",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "views",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "Configuration",
+        "importPath": "configuration.models",
+        "description": "configuration.models",
+        "isExtraImport": true,
+        "detail": "configuration.models",
+        "documentation": {}
+    },
+    {
+        "label": "ConfigurationForm",
+        "importPath": "configuration.forms",
+        "description": "configuration.forms",
+        "isExtraImport": true,
+        "detail": "configuration.forms",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "HttpResponseRedirect",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "importPath": "configuration.views",
+        "description": "configuration.views",
+        "isExtraImport": true,
+        "detail": "configuration.views",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserChangeForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Departement",
+        "importPath": "departement.models",
+        "description": "departement.models",
+        "isExtraImport": true,
+        "detail": "departement.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractBaseUser",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "BaseUserManager",
+        "importPath": "django.contrib.auth.base_user",
+        "description": "django.contrib.auth.base_user",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.base_user",
+        "documentation": {}
+    },
+    {
+        "label": "Message",
+        "importPath": "notification.models",
+        "description": "notification.models",
+        "isExtraImport": true,
+        "detail": "notification.models",
+        "documentation": {}
+    },
+    {
+        "label": "Abonne",
+        "importPath": "notification.models",
+        "description": "notification.models",
+        "isExtraImport": true,
+        "detail": "notification.models",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessMessageMixin",
+        "importPath": "django.contrib.messages.views",
+        "description": "django.contrib.messages.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages.views",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessMessageMixin",
+        "importPath": "django.contrib.messages.views",
+        "description": "django.contrib.messages.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages.views",
+        "documentation": {}
+    },
+    {
+        "label": "SuccessMessageMixin",
+        "importPath": "django.contrib.messages.views",
+        "description": "django.contrib.messages.views",
+        "isExtraImport": true,
+        "detail": "django.contrib.messages.views",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "CreateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "ListView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "UpdateView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DeleteView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "DetailView",
+        "importPath": "django.views.generic",
+        "description": "django.views.generic",
+        "isExtraImport": true,
+        "detail": "django.views.generic",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "migration.2cf0f86fd590523ce6170d484556f7717f169373",
+        "description": "migration.2cf0f86fd590523ce6170d484556f7717f169373",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('memoire', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='memoire',\n            name='client',\n            field=models.ForeignKey(null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL, verbose_name='Utilisateur'),",
+        "detail": "migration.2cf0f86fd590523ce6170d484556f7717f169373",
+        "documentation": {}
+    },
+    {
+        "label": "Command",
+        "kind": 6,
+        "importPath": "migration.2df6dbbecf9ccb1c708bd89e22d1a325dd524d07",
+        "description": "migration.2df6dbbecf9ccb1c708bd89e22d1a325dd524d07",
+        "peekOfCode": "class Command(BaseCommand):\n    help = \"Discover and run tests in the specified modules or the current directory.\"\n    # DiscoverRunner runs the checks after databases are set up.\n    requires_system_checks = []\n    test_runner = None\n    def run_from_argv(self, argv):\n        \"\"\"\n        Pre-parse the command line to extract the value of the --testrunner\n        option. This allows a test runner to define additional command line\n        arguments.",
+        "detail": "migration.2df6dbbecf9ccb1c708bd89e22d1a325dd524d07",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "migration.3c8ae9518b36fd773973bcdbcc7c5802b4ae4b9b",
+        "description": "migration.3c8ae9518b36fd773973bcdbcc7c5802b4ae4b9b",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n        ('notification', '0003_alter_abonne_email_abonne'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='message',\n            name='user',\n            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to=settings.AUTH_USER_MODEL),",
+        "detail": "migration.3c8ae9518b36fd773973bcdbcc7c5802b4ae4b9b",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurForm",
+        "kind": 6,
+        "importPath": "Autre_form_2",
+        "description": "Autre_form_2",
+        "peekOfCode": "class AuteurForm(forms.ModelForm):\n    class Meta:\n        model = Auteur\n        fields = ['nom','prenoms','sexe','nationalite','date_naiss','date_deces','pays']\n        widgets = {\n            \"nom\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"prenoms\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"nationalite\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"pays\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"date_naiss\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),",
+        "detail": "Autre_form_2",
+        "documentation": {}
+    },
+    {
+        "label": "MessageForm",
+        "kind": 6,
+        "importPath": "MessageForm_2",
+        "description": "MessageForm_2",
+        "peekOfCode": "class MessageForm(forms.ModelForm):\n    class Meta:\n        model = Message\n        fields = ['nom_complet','email','tel','objet','detail']\n        widgets = {\n            'nom_complet':forms.TextInput(attrs={'class':'form-control form-control-rounded'}),\n            'email':forms.TextInput(attrs={'type':'email','class':'form-control form-control-rounded'}),\n            'tel':forms.TextInput(attrs={'class':'form-control form-control-rounded'}),\n            'objet':forms.TextInput(attrs={'class':'form-control form-control-rounded'}),\n            'detail':forms.Textarea(attrs={'class':'form-control form-control-rounded'}),",
+        "detail": "MessageForm_2",
+        "documentation": {}
+    },
+    {
+        "label": "AbonneForm",
+        "kind": 6,
+        "importPath": "MessageForm_2",
+        "description": "MessageForm_2",
+        "peekOfCode": "class AbonneForm(forms.ModelForm):\n    class Meta:\n        model = Abonne\n        fields = ['email_abonne']\n        widgets = {\n            'email_abonne':forms.TextInput(attrs={'type':'email','class':'form-control form-control-rounded'}),\n        }",
+        "detail": "MessageForm_2",
+        "documentation": {}
+    },
+    {
+        "label": "VenteLivre",
+        "kind": 6,
+        "importPath": "Model_VenteLivre",
+        "description": "Model_VenteLivre",
+        "peekOfCode": "class VenteLivre(models.Model):\n    livre         = models.ForeignKey(Livre, on_delete=models.SET_NULL, null=True, max_length=150, verbose_name='Livre :')\n    client        = models.ForeignKey(CustumerUser, on_delete=models.SET_NULL, null=True, max_length=150, verbose_name='Client :')\n    date_vente    = models.DateField(verbose_name='Date Vente :')\n    prix_vente    = models.DecimalField(max_digits=12, decimal_places=0, verbose_name='Prix de Vente :')\n    sum_payer     = models.DecimalField(max_digits=12, decimal_places=0, verbose_name='Somme Payée :')\n    reste_a_payer = models.DecimalField(max_digits=12, decimal_places=0, verbose_name='Reste à payer :')\n    slug          = models.SlugField(max_length=255, unique=True, editable=False)\n    created_at    = models.DateTimeField(auto_now_add=True)\n    updated_at    = models.DateTimeField(auto_now=True)",
+        "detail": "Model_VenteLivre",
+        "documentation": {}
+    },
+    {
+        "label": "VenteLivreForm",
+        "kind": 6,
+        "importPath": "Vente_form",
+        "description": "Vente_form",
+        "peekOfCode": "class VenteLivreForm(forms.ModelForm):\n    class Meta:\n        model = VenteLivre\n        fields = ['livre','client','date_vente','prix_vente','sum_payer']\n        widgets = {\n            \"sum_payer\":forms.TextInput(attrs={\"type\":\"number\",'class': 'form-control form-control-rounded'}),\n            \"prix_vente\":forms.TextInput(attrs={\"type\":\"number\",'class': 'form-control form-control-rounded'}),\n            \"date_vente\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            'livre': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),\n            'client': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),",
+        "detail": "Vente_form",
+        "documentation": {}
+    },
+    {
+        "label": "AccountsConfig",
+        "kind": 6,
+        "importPath": "account",
+        "description": "account",
+        "peekOfCode": "class AccountsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'accounts'",
+        "detail": "account",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "account_urls",
+        "description": "account_urls",
+        "peekOfCode": "app_name = 'accounts'\nurlpatterns = [\n    path('create/',login_required(CustumerUserCreateView.as_view()),name=\"create\"),\n    path('',login_required(CustumerUserListeView.as_view()),name=\"index\"),\n    path('update_staff/',login_required(Update_staff), name='update_staff'),\n    path('update_admin/',login_required(Update_admin), name='update_admin'),\n    path('update_etat/',login_required(Update_etat), name='update_etat'),\n    path('detail/<str:slug>/',login_required(CustumerUserDetailView.as_view()), name='detail'),\n    path('edit/<str:slug>/',login_required(CustumerUserUpdateView.as_view()),name=\"update\"),\n    path('delete/<str:slug>/',login_required(CustumerUserDeleteView.as_view()), name=\"delete\"),",
+        "detail": "account_urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "account_urls",
+        "description": "account_urls",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(CustumerUserCreateView.as_view()),name=\"create\"),\n    path('',login_required(CustumerUserListeView.as_view()),name=\"index\"),\n    path('update_staff/',login_required(Update_staff), name='update_staff'),\n    path('update_admin/',login_required(Update_admin), name='update_admin'),\n    path('update_etat/',login_required(Update_etat), name='update_etat'),\n    path('detail/<str:slug>/',login_required(CustumerUserDetailView.as_view()), name='detail'),\n    path('edit/<str:slug>/',login_required(CustumerUserUpdateView.as_view()),name=\"update\"),\n    path('delete/<str:slug>/',login_required(CustumerUserDeleteView.as_view()), name=\"delete\"),\n    path('mon_profile/',login_required(CustumerUserProfile.as_view()), name=\"mon_profile\"),",
+        "detail": "account_urls",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteForm",
+        "kind": 6,
+        "importPath": "actualite_form",
+        "description": "actualite_form",
+        "peekOfCode": "class ActualiteForm(forms.ModelForm):\n    class Meta:\n        model = Actualite\n        fields = ['type_pub','titre','sous_titre','date_pub','lieu','prenoms','nom','profession','photo','detail']\n        widgets = {\n            'type_pub': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),\n            \"titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"sous_titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"date_pub\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            \"lieu\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),",
+        "detail": "actualite_form",
+        "documentation": {}
+    },
+    {
+        "label": "CategorieConfig",
+        "kind": 6,
+        "importPath": "app_config",
+        "description": "app_config",
+        "peekOfCode": "class CategorieConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'categorie'",
+        "detail": "app_config",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntForm",
+        "kind": 6,
+        "importPath": "category_form",
+        "description": "category_form",
+        "peekOfCode": "class EmpruntForm(forms.ModelForm):\n    class Meta:\n        model = Emprunt\n        fields = ['categorie','client','date_emprunt','date_retour','etat_livre']\n        widgets = {\n            'categorie': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),\n            'client': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),\n            \"date_emprunt\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            \"date_retour\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            'etat_livre': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),",
+        "detail": "category_form",
+        "documentation": {}
+    },
+    {
+        "label": "CategorieForm",
+        "kind": 6,
+        "importPath": "category_form2",
+        "description": "category_form2",
+        "peekOfCode": "class CategorieForm(forms.ModelForm):\n    class Meta:\n        model = Categorie\n        fields = ['libelle_categ']\n        widgets = {\n            \"libelle_categ\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n        }",
+        "detail": "category_form2",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteConfig",
+        "kind": 6,
+        "importPath": "config_app_actualite",
+        "description": "config_app_actualite",
+        "peekOfCode": "class ActualiteConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'actualite'",
+        "detail": "config_app_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "configuration_view",
+        "description": "configuration_view",
+        "peekOfCode": "def index(request):\n    param = Configuration.objects.all().last()\n    id = param.id\n    if id == None: id=0\n    init_param = {}\n    init_param['nomentreprise'] = param.nomentreprise\n    init_param['abreviation'] = param.abreviation\n    init_param['slogan'] = param.slogan\n    init_param['directeur'] = param.directeur\n    init_param['adresse'] = param.adresse",
+        "detail": "configuration_view",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "confiration_urls",
+        "description": "confiration_urls",
+        "peekOfCode": "app_name = 'configuration'\nurlpatterns = [\n    path('', login_required(index), name='index')\n]",
+        "detail": "confiration_urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "confiration_urls",
+        "description": "confiration_urls",
+        "peekOfCode": "urlpatterns = [\n    path('', login_required(index), name='index')\n]",
+        "detail": "confiration_urls",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUserForm",
+        "kind": 6,
+        "importPath": "custom_user_form",
+        "description": "custom_user_form",
+        "peekOfCode": "class CustumerUserForm(UserCreationForm):\n    class Meta:\n        model = CustumerUser\n        fields = ['prenoms','nom','adresse','email','tel','profession','sexe','nature_client','departement','niveau','matricule','role','photo','pays','password1','password2']\n        widgets = {\n            \"prenoms\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"nom\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"adresse\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"email\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"tel\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),",
+        "detail": "custom_user_form",
+        "documentation": {}
+    },
+    {
+        "label": "ChangeCustumerUserForm",
+        "kind": 6,
+        "importPath": "custom_user_form",
+        "description": "custom_user_form",
+        "peekOfCode": "class ChangeCustumerUserForm(UserChangeForm):\n     class Meta:\n        model = CustumerUser\n        fields = ['prenoms','nom','adresse','email','tel','profession','sexe','nature_client','departement','niveau','matricule','role','photo','pays']\n        widgets = {\n            \"prenoms\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"nom\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"adresse\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"email\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"tel\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),",
+        "detail": "custom_user_form",
+        "documentation": {}
+    },
+    {
+        "label": "MyUserManager",
+        "kind": 6,
+        "importPath": "customerUserModel",
+        "description": "customerUserModel",
+        "peekOfCode": "class MyUserManager(BaseUserManager):\n    def create_user(self, email, password=None):\n        if not email:\n            raise ValueError('Vous devez entrer un email')\n        user = self.model(email=self.normalize_email(email))\n        user.set_password(password)\n        user.save()\n        return user\n    def create_superuser(self, email, password=None):\n        user = self.create_user(email=email,password=password)",
+        "detail": "customerUserModel",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUser",
+        "kind": 6,
+        "importPath": "customerUserModel",
+        "description": "customerUserModel",
+        "peekOfCode": "class CustumerUser(AbstractBaseUser):\n    ROLE=(\n    ('administrateur','Administrateur'),\n    ('directeur_general','Directeur Général'),\n    ('directeur_adjoint','Directeur Adjoint'),\n    ('secretaire','Secrétaire'),\n    ('agent','Agent')\n    )\n    NATURE_CLIENT=(\n        ('encadreur','Encadreur'),",
+        "detail": "customerUserModel",
+        "documentation": {}
+    },
+    {
+        "label": "DepartementManager",
+        "kind": 6,
+        "importPath": "departemement_model",
+        "description": "departemement_model",
+        "peekOfCode": "class DepartementManager(models.Manager):\n    def create_departement(self, libelle_depart):\n        last_pk = self.order_by('pk').last()\n        slug    = slugify(libelle_depart) + '-' + str(last_pk.pk + 1) if last_pk else '1'\n        return self.create(libelle_depart=libelle_depart, slug=slug)\nclass Departement(models.Model):\n    libelle_depart = models.CharField(max_length=150, unique=True, verbose_name='Département :')\n    slug           = models.SlugField(max_length=255, unique=True, editable=False)\n    # user           = models.ForeignKey(User,on_delete=models.SET_NULL, null=True)\n    created_at     = models.DateTimeField(auto_now_add=True)",
+        "detail": "departemement_model",
+        "documentation": {}
+    },
+    {
+        "label": "Departement",
+        "kind": 6,
+        "importPath": "departemement_model",
+        "description": "departemement_model",
+        "peekOfCode": "class Departement(models.Model):\n    libelle_depart = models.CharField(max_length=150, unique=True, verbose_name='Département :')\n    slug           = models.SlugField(max_length=255, unique=True, editable=False)\n    # user           = models.ForeignKey(User,on_delete=models.SET_NULL, null=True)\n    created_at     = models.DateTimeField(auto_now_add=True)\n    updated_at     = models.DateTimeField(auto_now=True)\n    objects = DepartementManager()\n    def __str__(self):\n        return self.libelle_depart\n    class Meta:",
+        "detail": "departemement_model",
+        "documentation": {}
+    },
+    {
+        "label": "DepartementForm",
+        "kind": 6,
+        "importPath": "departement_form",
+        "description": "departement_form",
+        "peekOfCode": "class DepartementForm(forms.ModelForm):\n    class Meta:\n        model = Departement\n        fields = ['libelle_depart']\n        widgets = {\n            \"libelle_depart\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n        }",
+        "detail": "departement_form",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "emprunt",
+        "description": "emprunt",
+        "peekOfCode": "app_name = 'emprunt'\nurlpatterns = [\n    path('create/',login_required(EmpruntCreateView.as_view()), name='create'),\n    path('',login_required(EmpruntListView.as_view()), name='index'),\n    path('update_statut',login_required(Update_statut), name='update_statut'),\n    path('detail/<str:slug>/',login_required(EmpruntDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(EmpruntUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(EmpruntDeleteView.as_view()), name='delete'),\n]",
+        "detail": "emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "emprunt",
+        "description": "emprunt",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(EmpruntCreateView.as_view()), name='create'),\n    path('',login_required(EmpruntListView.as_view()), name='index'),\n    path('update_statut',login_required(Update_statut), name='update_statut'),\n    path('detail/<str:slug>/',login_required(EmpruntDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(EmpruntUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(EmpruntDeleteView.as_view()), name='delete'),\n]",
+        "detail": "emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "Emprunt",
+        "kind": 6,
+        "importPath": "emprunt_model",
+        "description": "emprunt_model",
+        "peekOfCode": "class Emprunt(models.Model):\n    ETAT_LIVRE=(\n    ('bon','Bon'),\n    ('degrader','Dégradé'),\n    ('mauvais','Mauvais')\n    )\n    categorie = models.ForeignKey(Livre,on_delete=models.SET_NULL, max_length=150,null=True,verbose_name='Livre :')\n    client = models.ForeignKey(CustumerUser,on_delete=models.SET_NULL,max_length=150,null=True,verbose_name='Client :')\n    date_emprunt = models.DateField(verbose_name='Date Emprunt :')\n    date_retour = models.DateField(verbose_name='Date Retour :')",
+        "detail": "emprunt_model",
+        "documentation": {}
+    },
+    {
+        "label": "CustumerUserForm",
+        "kind": 6,
+        "importPath": "form_customer",
+        "description": "form_customer",
+        "peekOfCode": "class CustumerUserForm(UserCreationForm):\n    class Meta:\n        model = CustumerUser\n        fields = ['prenoms','nom','adresse','email','password1','password2']\n        widgets = {\n            \"prenoms\":forms.TextInput(attrs={'class': 'form-control'}),\n            \"nom\":forms.TextInput(attrs={'class': 'form-control'}),\n            \"adresse\":forms.TextInput(attrs={'class': 'form-control'}),\n            \"email\":forms.TextInput(attrs={'class': 'form-control'}),\n            'password1': forms.TextInput(attrs={'type':'password','class': 'form-control'}),",
+        "detail": "form_customer",
+        "documentation": {}
+    },
+    {
+        "label": "MessageForm",
+        "kind": 6,
+        "importPath": "form_customer",
+        "description": "form_customer",
+        "peekOfCode": "class MessageForm(forms.ModelForm):\n    class Meta:\n        model = Message\n        fields = ['nom_complet','email','tel','objet','detail']\n        widgets = {\n            'nom_complet':forms.TextInput(attrs={'class':'form-control'}),\n            'email':forms.TextInput(attrs={'type':'email','class':'form-control'}),\n            'tel':forms.TextInput(attrs={'class':'form-control'}),\n            'objet':forms.TextInput(attrs={'class':'form-control'}),\n            'detail':forms.Textarea(attrs={'class':'form-control'}),",
+        "detail": "form_customer",
+        "documentation": {}
+    },
+    {
+        "label": "AbonneForm",
+        "kind": 6,
+        "importPath": "form_customer",
+        "description": "form_customer",
+        "peekOfCode": "class AbonneForm(forms.ModelForm):\n    class Meta:\n        model = Abonne\n        fields = ['email_abonne']\n        widgets = {\n            'email_abonne':forms.TextInput(attrs={'type':'email','class':'form-control bg-transparent text-white', 'placeholder':'Votre Adresse Email'}),\n        }",
+        "detail": "form_customer",
+        "documentation": {}
+    },
+    {
+        "label": "LivreForm",
+        "kind": 6,
+        "importPath": "livre_form",
+        "description": "livre_form",
+        "peekOfCode": "class LivreForm(forms.ModelForm):\n    class Meta:\n        model = Livre\n        fields = ['categorie','titre','sous_titre','resume','auteur','langue','annee','distinction','nbre_exemplaire','prix_vente','photo_livre','fichier_livre','num_livre']\n        widgets = {\n            \"titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"sous_titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"langue\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"annee\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            \"date_deces\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),",
+        "detail": "livre_form",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireForm",
+        "kind": 6,
+        "importPath": "memoireForm",
+        "description": "memoireForm",
+        "peekOfCode": "class MemoireForm(forms.ModelForm):\n    class Meta:\n        model = Memoire\n        fields = ['titre','sous_titre','nature_memorant','annee','client','resumer']\n        widgets = {\n            \"titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"sous_titre\":forms.TextInput(attrs={'class': 'form-control form-control-rounded'}),\n            \"resumer\":forms.Textarea(attrs={'class': 'form-control form-control-rounded'}),\n            \"annee\":forms.TextInput(attrs={\"type\":\"date\",'class': 'form-control form-control-rounded'}),\n            'client': forms.Select(attrs={'class': 'form-control form-control-rounded choices__input'}),",
+        "detail": "memoireForm",
+        "documentation": {}
+    },
+    {
+        "label": "Memoire",
+        "kind": 6,
+        "importPath": "memoire_model",
+        "description": "memoire_model",
+        "peekOfCode": "class Memoire(models.Model):\n    NATURE_MEMO=(\n    ('etudiant','Etudiant'),\n    ('encadreur','Encadreur')\n    )\n    titre          = models.CharField(max_length=150,verbose_name='Titre :')\n    sous_titre     = models.CharField(max_length=150,verbose_name='Sous Titre :')\n    resumer        = models.TextField(max_length=150,verbose_name='Resumé :')\n    annee          = models.DateField(verbose_name='Année')\n    client         = models.ForeignKey(CustumerUser,on_delete=models.SET_NULL,null=True,verbose_name='Utilisateur')",
+        "detail": "memoire_model",
+        "documentation": {}
+    },
+    {
+        "label": "Auteur",
+        "kind": 6,
+        "importPath": "model_auteur",
+        "description": "model_auteur",
+        "peekOfCode": "class Auteur(models.Model):\n    SEXE=(\n    ('masculin','Masculin'),\n    ('feminin','Féminin'),\n    )\n    nom         = models.CharField(max_length=150,verbose_name='Nom :')\n    prenoms     = models.CharField(max_length=150,verbose_name='Prénoms :')\n    user        = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)\n    slug        = models.SlugField(max_length=255,unique=True,editable=False)\n    sexe        = models.CharField(max_length=150,choices=SEXE,blank=True,null=True,verbose_name='Sexe*')",
+        "detail": "model_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "model_auteur",
+        "description": "model_auteur",
+        "peekOfCode": "User = get_user_model()\nclass Auteur(models.Model):\n    SEXE=(\n    ('masculin','Masculin'),\n    ('feminin','Féminin'),\n    )\n    nom         = models.CharField(max_length=150,verbose_name='Nom :')\n    prenoms     = models.CharField(max_length=150,verbose_name='Prénoms :')\n    user        = models.ForeignKey(User, on_delete=models.SET_NULL, null=True, blank=True)\n    slug        = models.SlugField(max_length=255,unique=True,editable=False)",
+        "detail": "model_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "Configuration",
+        "kind": 6,
+        "importPath": "model_configuration",
+        "description": "model_configuration",
+        "peekOfCode": "class Configuration(models.Model):\n    nomentreprise = models.CharField(max_length=100, unique=True, verbose_name=\"Nom Entreprise\")\n    abreviation = models.CharField(max_length=100)\n    slogan = models.CharField(max_length=255)\n    directeur = models.CharField(max_length=100)\n    adresse = models.CharField(max_length=100)\n    telephone = models.BigIntegerField(unique=True, verbose_name=\"Téléphone\")\n    email =  models.EmailField(max_length=50, unique=True,null=True,blank=True)\n    logo = models.ImageField(upload_to=\"entreprise/logo\", null=True,blank=True)\n    user = models.ForeignKey(User, on_delete=models.SET_NULL, null= True,blank= True)",
+        "detail": "model_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 5,
+        "importPath": "model_configuration",
+        "description": "model_configuration",
+        "peekOfCode": "User = get_user_model()\nclass Configuration(models.Model):\n    nomentreprise = models.CharField(max_length=100, unique=True, verbose_name=\"Nom Entreprise\")\n    abreviation = models.CharField(max_length=100)\n    slogan = models.CharField(max_length=255)\n    directeur = models.CharField(max_length=100)\n    adresse = models.CharField(max_length=100)\n    telephone = models.BigIntegerField(unique=True, verbose_name=\"Téléphone\")\n    email =  models.EmailField(max_length=50, unique=True,null=True,blank=True)\n    logo = models.ImageField(upload_to=\"entreprise/logo\", null=True,blank=True)",
+        "detail": "model_configuration",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-p2%ok6p2wa1pa&4k2y&a1#y_3j7^=2!yg+!h(jn29yl6f+jhd+'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-p2%ok6p2wa1pa&4k2y&a1#y_3j7^=2!yg+!h(jn29yl6f+jhd+'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "ALLOWED_HOSTS = []\n# Application definition\nINSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"crispy_forms\",",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    \"crispy_forms\",\n    \"crispy_bootstrap5\",\n    'accounts',",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'bibliotheque.urls'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "ROOT_URLCONF = 'bibliotheque.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR/'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [BASE_DIR/'templates'],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',\n                'django.contrib.auth.context_processors.auth',",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "WSGI_APPLICATION = 'bibliotheque.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/4.2/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'db_bibliotheque',\n        'USER': 'root',\n        'PASSWORD': '',\n    }",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.mysql',\n        'NAME': 'db_bibliotheque',\n        'USER': 'root',\n        'PASSWORD': '',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "LANGUAGE_CODE = 'fr-fr'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.2/howto/static-files/\nSTATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "STATICFILES_DIRS = [BASE_DIR/'static']\nMEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "MEDIA_URL = '/media/'\nMEDIA_ROOT= BASE_DIR/'media/'\nAUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'accounts.CustumerUser'\nLOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "LOGIN_REDIRECT_URL = 'dashboard'\nLOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = \"login\"\nCRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_ALLOWED_TEMPLATE_PACKS",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "CRISPY_ALLOWED_TEMPLATE_PACKS = \"bootstrap5\"\nCRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "CRISPY_TEMPLATE_PACK",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "CRISPY_TEMPLATE_PACK = \"bootstrap5\"\nEMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_BACKEND",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'\nEMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "EMAIL_FILE_PATH",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "EMAIL_FILE_PATH = BASE_DIR/'emails'\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "settings",
+        "description": "settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'",
+        "detail": "settings",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "url_category",
+        "description": "url_category",
+        "peekOfCode": "app_name = 'categorie'\nurlpatterns = [\n    path('',login_required(CategorieCreateView.as_view()), name='categorie'),\n    path('update/<str:slug>/',login_required(CategorieUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(CategorieDeleteView.as_view()), name='delete'),\n]",
+        "detail": "url_category",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "url_category",
+        "description": "url_category",
+        "peekOfCode": "urlpatterns = [\n    path('',login_required(CategorieCreateView.as_view()), name='categorie'),\n    path('update/<str:slug>/',login_required(CategorieUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(CategorieDeleteView.as_view()), name='delete'),\n]",
+        "detail": "url_category",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "url_livre_vente",
+        "description": "url_livre_vente",
+        "peekOfCode": "app_name = 'vente_livre'\nurlpatterns = [\n    path('create/',login_required(VenteLivreCreateView.as_view()), name='create'),\n    path('',login_required(VenteLivreListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(VenteLivreDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(VenteLivreUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(VenteLivreDeleteView.as_view()), name='delete'),\n]",
+        "detail": "url_livre_vente",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "url_livre_vente",
+        "description": "url_livre_vente",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(VenteLivreCreateView.as_view()), name='create'),\n    path('',login_required(VenteLivreListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(VenteLivreDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(VenteLivreUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(VenteLivreDeleteView.as_view()), name='delete'),\n]",
+        "detail": "url_livre_vente",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "url_user",
+        "description": "url_user",
+        "peekOfCode": "urlpatterns = [\n    path(\"login/\", views.LoginView.as_view(), name=\"login\"),\n    path(\"logout/\", views.LogoutView.as_view(), name=\"logout\"),\n    path(\n        \"password_change/\", views.PasswordChangeView.as_view(), name=\"password_change\"\n    ),\n    path(\n        \"password_change/done/\",\n        views.PasswordChangeDoneView.as_view(),\n        name=\"password_change_done\",",
+        "detail": "url_user",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls",
+        "description": "urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    ################### LES VUES DU SITE ####################################\n    path('', IndexTemplateView.as_view(), name='index'),\n    path('contacte/', ContacteTemplateView.as_view(), name='contacte'),\n    path('propos/', ProposTemplateView.as_view(), name='propos'),\n    path('inscription/', InscriptionTemplateView.as_view(), name='inscription'),\n    path('categories_livre/<int:pk>/',CategorieLivre, name='categorie_livre'),\n    path('categories_livre_liste/<int:pk>/',CategorieLivre_liste, name='categorie_livre_liste'),\n    ################### LES VUES DU BACK_OFFICE #############################",
+        "detail": "urls",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "urls_actualites",
+        "description": "urls_actualites",
+        "peekOfCode": "app_name = 'actualite'\nurlpatterns = [\n    path('create/',login_required(ActualiteCreateView.as_view()), name='create'),\n    path('',login_required(ActualiteListView.as_view()), name='index'),\n    path('update_publiciter/',login_required(update_publiciter), name='update_publiciter'),\n    path('detail/<str:slug>/',login_required(ActualiteDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(ActualiteUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(ActualiteDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_actualites",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls_actualites",
+        "description": "urls_actualites",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(ActualiteCreateView.as_view()), name='create'),\n    path('',login_required(ActualiteListView.as_view()), name='index'),\n    path('update_publiciter/',login_required(update_publiciter), name='update_publiciter'),\n    path('detail/<str:slug>/',login_required(ActualiteDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(ActualiteUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(ActualiteDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_actualites",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "urls_auteur",
+        "description": "urls_auteur",
+        "peekOfCode": "app_name = 'auteur'\nurlpatterns = [\n    path('create/',login_required(AuteurCreateView.as_view()), name='create'),\n    path('',login_required(AuteurListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(AuteurDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(AuteurUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(AuteurDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls_auteur",
+        "description": "urls_auteur",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(AuteurCreateView.as_view()), name='create'),\n    path('',login_required(AuteurListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(AuteurDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(AuteurUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(AuteurDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "urls_departement",
+        "description": "urls_departement",
+        "peekOfCode": "app_name = 'departement'\nurlpatterns = [\n    path('',login_required(DepartementCreateView.as_view()), name='departe'),\n    path('update/<str:slug>/',login_required(DepartementUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(DepartementDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_departement",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls_departement",
+        "description": "urls_departement",
+        "peekOfCode": "urlpatterns = [\n    path('',login_required(DepartementCreateView.as_view()), name='departe'),\n    path('update/<str:slug>/',login_required(DepartementUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(DepartementDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_departement",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "urls_livres",
+        "description": "urls_livres",
+        "peekOfCode": "app_name = 'livre'\nurlpatterns = [\n    path('',login_required(LivreCreateView.as_view()), name='create'),\n    path('index/',login_required(LivreListView.as_view()), name='index'),\n    path('update_publiciter/',login_required(update_publiciter), name='update_publiciter'),\n    path('detail/<str:slug>/',login_required(LivreDetailView.as_view()), name='detail'),\n    # path('categories_livre/<int:pk>/',login_required(CategorieLivre), name='categorie_livre'),\n    path('update/<str:slug>/',login_required(LivreUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(LivreDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_livres",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls_livres",
+        "description": "urls_livres",
+        "peekOfCode": "urlpatterns = [\n    path('',login_required(LivreCreateView.as_view()), name='create'),\n    path('index/',login_required(LivreListView.as_view()), name='index'),\n    path('update_publiciter/',login_required(update_publiciter), name='update_publiciter'),\n    path('detail/<str:slug>/',login_required(LivreDetailView.as_view()), name='detail'),\n    # path('categories_livre/<int:pk>/',login_required(CategorieLivre), name='categorie_livre'),\n    path('update/<str:slug>/',login_required(LivreUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(LivreDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_livres",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "urls_memoire",
+        "description": "urls_memoire",
+        "peekOfCode": "app_name = 'memoire'\nurlpatterns = [\n    path('create/',login_required(MemoireCreateView.as_view()), name='create'),\n    path('',login_required(MemoireListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(MemoireDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(MemoireUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(MemoireDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "urls_memoire",
+        "description": "urls_memoire",
+        "peekOfCode": "urlpatterns = [\n    path('create/',login_required(MemoireCreateView.as_view()), name='create'),\n    path('',login_required(MemoireListView.as_view()), name='index'),\n    path('detail/<str:slug>/',login_required(MemoireDetailView.as_view()), name='detail'),\n    path('update/<str:slug>/',login_required(MemoireUpdateView.as_view()), name='update'),\n    path('delete/<str:slug>/',login_required(MemoireDeleteView.as_view()), name='delete'),\n]",
+        "detail": "urls_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteCreateView",
+        "kind": 6,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "class ActualiteCreateView(CreateView):\n    model = Actualite\n    form_class = ActualiteForm\n    template_name = 'admin/actualite/create.html'\n    success_url = reverse_lazy('actualite:index')\n    # success_message = \"Actualité créée avec succès\"\n    def form_valid(self, form):\n        if self.request.user.is_authenticated:\n            form.instance.user = self.request.user\n            messages.success(self.request, f\"Actualité {self.request.POST.get('titre')} créé avec succès !\")",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteListView",
+        "kind": 6,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "class ActualiteListView(ListView):\n    model = Actualite\n    context_object_name = 'actualite'\n    template_name = 'admin/actualite/index.html'\ndef update_publiciter(request):\n    if request.method=='POST':\n        p_state = request.POST.get('publier')\n        p_id = request.POST.get('idpublier')\n        objet = Actualite.objects.get(id=p_id,publier=p_state)\n        if p_state == 'False':",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteUpdateView",
+        "kind": 6,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "class ActualiteUpdateView(SuccessMessageMixin,UpdateView):\n    model = Actualite\n    form_class = ActualiteForm\n    template_name = 'admin/actualite/update.html'\n    context_object_name = 'actualite'\n    success_url = reverse_lazy('actualite:index')\n    success_message = \"Actualité Modifiée avec succès\"\nclass ActualiteDetailView(DetailView):\n    model = Actualite\n    context_object_name = 'actualite'",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteDetailView",
+        "kind": 6,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "class ActualiteDetailView(DetailView):\n    model = Actualite\n    context_object_name = 'actualite'\n    template_name = 'admin/actualite/detail.html'\nclass ActualiteDeleteView(DeleteView):\n    model = Actualite\n    template_name = 'admin/actualite/index.html'\n    success_url = reverse_lazy('actualite:index')",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "ActualiteDeleteView",
+        "kind": 6,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "class ActualiteDeleteView(DeleteView):\n    model = Actualite\n    template_name = 'admin/actualite/index.html'\n    success_url = reverse_lazy('actualite:index')",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "update_publiciter",
+        "kind": 2,
+        "importPath": "view_actualite",
+        "description": "view_actualite",
+        "peekOfCode": "def update_publiciter(request):\n    if request.method=='POST':\n        p_state = request.POST.get('publier')\n        p_id = request.POST.get('idpublier')\n        objet = Actualite.objects.get(id=p_id,publier=p_state)\n        if p_state == 'False':\n            objet.publier = True\n            objet.save()\n        else :\n            objet.publier = False",
+        "detail": "view_actualite",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurCreateView",
+        "kind": 6,
+        "importPath": "view_auteur",
+        "description": "view_auteur",
+        "peekOfCode": "class AuteurCreateView(SuccessMessageMixin,CreateView):\n    model = Auteur\n    form_class = AuteurForm\n    success_message = \"Auteur %(prenoms)s %(nom)s créée avec succès\"\n    template_name = 'admin/auteur/create.html'\n    success_url = reverse_lazy('auteur:index')\nclass AuteurListView(ListView):\n    model = Auteur\n    context_object_name = 'auteur'\n    template_name = 'admin/auteur/index.html'",
+        "detail": "view_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurListView",
+        "kind": 6,
+        "importPath": "view_auteur",
+        "description": "view_auteur",
+        "peekOfCode": "class AuteurListView(ListView):\n    model = Auteur\n    context_object_name = 'auteur'\n    template_name = 'admin/auteur/index.html'\nclass AuteurUpdateView(SuccessMessageMixin,UpdateView):\n    model          = Auteur\n    form_class     = AuteurForm\n    template_name  = \"admin/auteur/update.html\"\n    context_object_name = \"auteur\"\n    success_url    = reverse_lazy(\"auteur:index\")",
+        "detail": "view_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurUpdateView",
+        "kind": 6,
+        "importPath": "view_auteur",
+        "description": "view_auteur",
+        "peekOfCode": "class AuteurUpdateView(SuccessMessageMixin,UpdateView):\n    model          = Auteur\n    form_class     = AuteurForm\n    template_name  = \"admin/auteur/update.html\"\n    context_object_name = \"auteur\"\n    success_url    = reverse_lazy(\"auteur:index\")\n    success_message = \"Auteur %(prenoms)s %(nom)s Modifié avec succès\"\nclass AuteurDetailView(DetailView):\n    model = Auteur\n    context_object_name = 'auteur'",
+        "detail": "view_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurDetailView",
+        "kind": 6,
+        "importPath": "view_auteur",
+        "description": "view_auteur",
+        "peekOfCode": "class AuteurDetailView(DetailView):\n    model = Auteur\n    context_object_name = 'auteur'\n    template_name = 'admin/auteur/detail.html'\nclass AuteurDeleteView(DeleteView):\n    model = Auteur\n    template_name = 'admin/auteur/index.html'\n    success_url = reverse_lazy('auteur:index')",
+        "detail": "view_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "AuteurDeleteView",
+        "kind": 6,
+        "importPath": "view_auteur",
+        "description": "view_auteur",
+        "peekOfCode": "class AuteurDeleteView(DeleteView):\n    model = Auteur\n    template_name = 'admin/auteur/index.html'\n    success_url = reverse_lazy('auteur:index')",
+        "detail": "view_auteur",
+        "documentation": {}
+    },
+    {
+        "label": "DepartementCreateView",
+        "kind": 6,
+        "importPath": "view_departement",
+        "description": "view_departement",
+        "peekOfCode": "class DepartementCreateView(SuccessMessageMixin,CreateView):\n    model = Departement\n    form_class = DepartementForm\n    success_message = \"Département %(libelle_depart)s crée avec succès\"\n    template_name = 'admin/departement/departement.html'\n    success_url = reverse_lazy('departement:departe')\n    def get_context_data(self, **kwargs):\n        context            = super().get_context_data(**kwargs)\n        context[\"departement\"] = Departement.objects.order_by('-id')\n        context[\"name\"] = \"Enregistrer\"",
+        "detail": "view_departement",
+        "documentation": {}
+    },
+    {
+        "label": "DepartementUpdateView",
+        "kind": 6,
+        "importPath": "view_departement",
+        "description": "view_departement",
+        "peekOfCode": "class DepartementUpdateView(SuccessMessageMixin,UpdateView):\n    model = Departement\n    form_class = DepartementForm\n    success_message = \"Département %(libelle_depart)s Modifié avec succès\"\n    template_name = 'admin/departement/departement.html'\n    success_url = reverse_lazy('departement:departe')\n    def get_context_data(self, **kwargs):\n        context = super().get_context_data(**kwargs)\n        context[\"departement\"] = Departement.objects.order_by('-id')\n        context[\"name\"] = \"Modifier\"",
+        "detail": "view_departement",
+        "documentation": {}
+    },
+    {
+        "label": "DepartementDeleteView",
+        "kind": 6,
+        "importPath": "view_departement",
+        "description": "view_departement",
+        "peekOfCode": "class DepartementDeleteView(DeleteView):\n    model = Departement\n    template_name = 'admin/departement/departement.html'\n    success_url = reverse_lazy('departement:departe')",
+        "detail": "view_departement",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntCreateView",
+        "kind": 6,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "class EmpruntCreateView(CreateView):\n    model = Emprunt\n    form_class = EmpruntForm\n    template_name = 'admin/emprunt/create.html'\n    success_url = reverse_lazy('emprunt:index')\nclass EmpruntListView(ListView):\n    model = Emprunt\n    context_object_name = 'emprunts'\n    template_name = 'admin/emprunt/index.html'\ndef Update_statut(request):",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntListView",
+        "kind": 6,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "class EmpruntListView(ListView):\n    model = Emprunt\n    context_object_name = 'emprunts'\n    template_name = 'admin/emprunt/index.html'\ndef Update_statut(request):\n    if request.method=='POST':\n        em_state = request.POST.get('statut')\n        id_statut = request.POST.get('id_statut')\n        objet = Emprunt.objects.get(id=id_statut,statut=em_state)\n        if objet.statut == 0:",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntUpdateView",
+        "kind": 6,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "class EmpruntUpdateView(UpdateView):\n    model = Emprunt\n    form_class = EmpruntForm\n    template_name = 'admin/emprunt/update.html'\n    context_object_name = 'emprunts'\n    success_url = reverse_lazy('emprunt:index')\nclass EmpruntDetailView(DetailView):\n    model = Emprunt\n    context_object_name = 'emprunts'\n    template_name = 'admin/emprunt/detail.html'",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntDetailView",
+        "kind": 6,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "class EmpruntDetailView(DetailView):\n    model = Emprunt\n    context_object_name = 'emprunts'\n    template_name = 'admin/emprunt/detail.html'\nclass EmpruntDeleteView(DeleteView):\n    model = Emprunt\n    template_name = 'admin/emprunt/index.html'\n    success_url = reverse_lazy('emprunt:index')",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "EmpruntDeleteView",
+        "kind": 6,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "class EmpruntDeleteView(DeleteView):\n    model = Emprunt\n    template_name = 'admin/emprunt/index.html'\n    success_url = reverse_lazy('emprunt:index')",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "Update_statut",
+        "kind": 2,
+        "importPath": "view_emprunt",
+        "description": "view_emprunt",
+        "peekOfCode": "def Update_statut(request):\n    if request.method=='POST':\n        em_state = request.POST.get('statut')\n        id_statut = request.POST.get('id_statut')\n        objet = Emprunt.objects.get(id=id_statut,statut=em_state)\n        if objet.statut == 0:\n            objet.statut = True\n            objet.save()\n        else :\n            objet.statut = False",
+        "detail": "view_emprunt",
+        "documentation": {}
+    },
+    {
+        "label": "MessageListView",
+        "kind": 6,
+        "importPath": "view_message",
+        "description": "view_message",
+        "peekOfCode": "class MessageListView(ListView):\n    model = Message\n    context_object_name = 'notif_messages'\n    template_name = 'admin/notification/index_message.html'\ndef Update_statut(request):\n    if request.method=='POST':\n        s = request.POST.get('statut')\n        id_s = request.POST.get('id_statut')\n        objet = Message.objects.get(id=id_s,statut=s)\n        if s == 'False':",
+        "detail": "view_message",
+        "documentation": {}
+    },
+    {
+        "label": "MessageDetailView",
+        "kind": 6,
+        "importPath": "view_message",
+        "description": "view_message",
+        "peekOfCode": "class MessageDetailView(DetailView):\n    model = Message\n    context_object_name = 'notif_messages'\n    template_name = 'admin/notification/detail_message.html'\nclass AbonneListView(ListView):\n    model = Abonne\n    context_object_name = 'notif_abonnes'\n    template_name = 'admin/notification/index_abonne.html'\nclass AbonneDetailView(DetailView):\n    model = Abonne",
+        "detail": "view_message",
+        "documentation": {}
+    },
+    {
+        "label": "AbonneListView",
+        "kind": 6,
+        "importPath": "view_message",
+        "description": "view_message",
+        "peekOfCode": "class AbonneListView(ListView):\n    model = Abonne\n    context_object_name = 'notif_abonnes'\n    template_name = 'admin/notification/index_abonne.html'\nclass AbonneDetailView(DetailView):\n    model = Abonne\n    context_object_name = 'notif_abonnes'\n    template_name = 'admin/notification/detail_abonne.html'",
+        "detail": "view_message",
+        "documentation": {}
+    },
+    {
+        "label": "AbonneDetailView",
+        "kind": 6,
+        "importPath": "view_message",
+        "description": "view_message",
+        "peekOfCode": "class AbonneDetailView(DetailView):\n    model = Abonne\n    context_object_name = 'notif_abonnes'\n    template_name = 'admin/notification/detail_abonne.html'",
+        "detail": "view_message",
+        "documentation": {}
+    },
+    {
+        "label": "Update_statut",
+        "kind": 2,
+        "importPath": "view_message",
+        "description": "view_message",
+        "peekOfCode": "def Update_statut(request):\n    if request.method=='POST':\n        s = request.POST.get('statut')\n        id_s = request.POST.get('id_statut')\n        objet = Message.objects.get(id=id_s,statut=s)\n        if s == 'False':\n            objet.statut = True\n            objet.save()\n        else :\n            objet.statut = False",
+        "detail": "view_message",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireCreateView",
+        "kind": 6,
+        "importPath": "views_memoire",
+        "description": "views_memoire",
+        "peekOfCode": "class MemoireCreateView(CreateView):\n    model = Memoire\n    form_class = MemoireForm\n    template_name = 'admin/memoire/create.html'\n    success_url = reverse_lazy('memoire:index')\nclass MemoireListView(ListView):\n    model = Memoire\n    context_object_name = 'memoires'\n    template_name = 'admin/memoire/index.html'\nclass MemoireUpdateView(UpdateView):",
+        "detail": "views_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireListView",
+        "kind": 6,
+        "importPath": "views_memoire",
+        "description": "views_memoire",
+        "peekOfCode": "class MemoireListView(ListView):\n    model = Memoire\n    context_object_name = 'memoires'\n    template_name = 'admin/memoire/index.html'\nclass MemoireUpdateView(UpdateView):\n    model = Memoire\n    form_class = MemoireForm\n    template_name = 'admin/memoire/update.html'\n    context_object_name = 'memoires'\n    success_url = reverse_lazy('memoire:index')",
+        "detail": "views_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireUpdateView",
+        "kind": 6,
+        "importPath": "views_memoire",
+        "description": "views_memoire",
+        "peekOfCode": "class MemoireUpdateView(UpdateView):\n    model = Memoire\n    form_class = MemoireForm\n    template_name = 'admin/memoire/update.html'\n    context_object_name = 'memoires'\n    success_url = reverse_lazy('memoire:index')\nclass MemoireDetailView(DetailView):\n    model = Memoire\n    context_object_name = 'memoires'\n    template_name = 'admin/memoire/detail.html'",
+        "detail": "views_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireDetailView",
+        "kind": 6,
+        "importPath": "views_memoire",
+        "description": "views_memoire",
+        "peekOfCode": "class MemoireDetailView(DetailView):\n    model = Memoire\n    context_object_name = 'memoires'\n    template_name = 'admin/memoire/detail.html'\nclass MemoireDeleteView(DeleteView):\n    model = Memoire\n    template_name = 'admin/memoire/index.html'\n    success_url = reverse_lazy('memoire:index')",
+        "detail": "views_memoire",
+        "documentation": {}
+    },
+    {
+        "label": "MemoireDeleteView",
+        "kind": 6,
+        "importPath": "views_memoire",
+        "description": "views_memoire",
+        "peekOfCode": "class MemoireDeleteView(DeleteView):\n    model = Memoire\n    template_name = 'admin/memoire/index.html'\n    success_url = reverse_lazy('memoire:index')",
+        "detail": "views_memoire",
+        "documentation": {}
+    }
+]

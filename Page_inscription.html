@@ -1,0 +1,83 @@
+{% extends "index.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<div class="page-content bg-white">
+    <!-- inner page banner -->
+    <div class="dz-bnr-inr overlay-secondary-dark dz-bnr-inr-sm"
+        style="background-image:url(images/background/bg3.jpg);">
+        <div class="container">
+            <div class="dz-bnr-inr-entry">
+                <h1>Page D'inscription</h1>
+                <nav aria-label="breadcrumb" class="breadcrumb-row">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html"> Accueil</a></li>
+                        <li class="breadcrumb-item">S'inscrire</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- inner page banner End-->
+
+    <!-- contact area -->
+    <section class="content-inner shop-account">
+        <!-- Product -->
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="login-area">
+                        <form method="post" action="{% url 'inscription' %}">
+                            {% csrf_token %}
+                            {% if messages %}
+                            <ul class="messages">
+                                {% for message in messages %}
+                                <li{% if message.tags %} class="{{ message.tags }}" {% endif %}>
+                                    <div class="alert alert-success" role="alert">
+                                        <strong>{{ message }}</strong>
+                                    </div>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                            {% endif %}
+                            <h4 class="text-secondary">Inscription</h4>
+                            <p class="font-weight-600">Si vous n'avez pas de compte chez nous, veuillez vous inscrire.
+                            </p>
+                            <div class="mb-4">
+                                {{form.prenoms|as_crispy_field}}
+                            </div>
+                            <div class="mb-4">
+                                {{form.nom|as_crispy_field}}
+                            </div>
+                            <div class="mb-4">
+                                {{form.adresse|as_crispy_field}}
+                            </div>
+                            <div class="mb-4">
+                                {{form.email|as_crispy_field}}
+                            </div>
+                            <div class="mb-4">
+                                {{form.password1|as_crispy_field}}
+                            </div>
+                            <div class="mb-4">
+                                {{form.password2|as_crispy_field}}
+                            </div>
+                            <div class="mb-5">
+                                <small>Vos données personnelles seront utilisées pour soutenir votre expérience sur ce
+                                    site Web, pour gérer l'accès à votre compte et à d'autres fins décrites dans notre
+                                    <a href="#">politique de confidentialité</a>.</small>
+                            </div>
+                            <div class="text-left">
+                                <button type="submit" class="btn btn-primary btnhover w-100 me-2">S'inscrire</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Product END -->
+    </section>
+    <!-- contact area End-->
+
+</div>
+{% endblock content %}

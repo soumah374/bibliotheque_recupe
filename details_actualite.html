@@ -1,0 +1,188 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-shopping-bag">
+                <h3 class="h3">Les détails sur l'actualité<a href=" {% url 'actualite:index' %} "
+                        class="btn btn-sm btn-outline-info">Retour à la liste</a></h3>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+
+        <!-- View Order Start -->
+        <div class="records--body">
+            <div class="title">
+                <h6 class="h6">Nature de l'Actualité: {{actualite.actu_type}}</h6>
+            </div>
+
+            <!-- Tabs Nav Start -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#tab01" data-toggle="tab" class="nav-link active">Aperçu</a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#tab02" data-toggle="tab" class="nav-link">Order Details</a>
+                </li> -->
+            </ul>
+            <!-- Tabs Nav End -->
+
+            <!-- Tab Content Start -->
+            <div class="tab-content">
+                <!-- Tab Pane Start -->
+                <div class="tab-pane fade show active" id="tab01">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Les détails</h4>
+
+                            <table class="table table-simple">
+                                <tbody>
+                                    <tr>
+                                        <td>Titre:</td>
+                                        <th><a href="#" class="btn-link">{{actualite.titre}}</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Sous Titre:</td>
+                                        <th>{{actualite.sous_titre}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Date:</td>
+                                        <th>{{actualite.actu_date}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Lieu:</td>
+                                        <th>{{actualite.lieu}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Publier:</td>
+                                        {% if actualite.publier == 0 %}
+                                        <th>NON</th>
+                                        {% else %}
+                                        <th>OUI</th>
+                                        {% endif %}
+                                    </tr>
+                                    <tr>
+                                        <td>Contenu en Détails:</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="container">
+                                <p>{{actualite.detail}}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Images</h4>
+                            {% if actualite.photo %}
+                            <img class="img-fluid" src="{{actualite.photo.url}}" alt="" />
+                            {% else %}
+                            <h4 class="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><path d="M160 80H512c8.8 0 16 7.2 16 16V320c0 8.8-7.2 16-16 16H490.8L388.1 178.9c-4.4-6.8-12-10.9-20.1-10.9s-15.7 4.1-20.1 10.9l-52.2 79.8-12.4-16.9c-4.5-6.2-11.7-9.8-19.4-9.8s-14.8 3.6-19.4 9.8L175.6 336H160c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16zM96 96V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120zm208 24a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+                                Image non Définie
+                            </h4>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <!-- Tab Pane End -->
+
+                <!-- Tab Pane Start -->
+                <!-- <div class="tab-pane fade" id="tab02">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Order Information</h4>
+
+                            <table class="table table-simple">
+                                <tbody>
+                                    <tr>
+                                        <td>Customer Name:</td>
+                                        <th><a href="#" class="btn-link">Justin Adams</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Order Number:</td>
+                                        <th>1231234123</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Date:</td>
+                                        <th>June 15, 2017 02:30</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Total Amount:</td>
+                                        <th>$2587.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>VAT (10%):</td>
+                                        <th>$25</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Item Numbers:</td>
+                                        <th>08</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Client History:</td>
+                                        <th>4 Past Orders</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Payment Method:</td>
+                                        <th>Credit Card</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Other Information</h4>
+
+                            <table class="table table-simple">
+                                <tbody>
+                                    <tr>
+                                        <td>Ship To:</td>
+                                        <th>Bertt Harris</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Destination:</td>
+                                        <th>#24 Park Avenue Str., New York</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Delivery Date:</td>
+                                        <th>June 16, 2017</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping Method:</td>
+                                        <th>Plane</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipment Status:</td>
+                                        <th>Pending</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Phone Number:</td>
+                                        <th>0123 1234 123</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Email:</td>
+                                        <th>john@example.com</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Notes:</td>
+                                        <th>Lorem ipsum dolor sit amet.</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- Tab Pane End -->
+            </div>
+            <!-- Tab Content End -->
+        </div>
+        <!-- View Order End -->
+    </div>
+</section>
+{% endblock content %}

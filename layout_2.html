@@ -1,0 +1,71 @@
+{% load static %}
+{% load crispy_forms_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from bookland.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Nov 2023 16:02:37 GMT -->
+{% include "includes/head.html" %}
+<body>
+    <div class="page-wraper">
+        <div id="loading-area" class="preloader-wrapper-1">
+            <div class="preloader-inner">
+                <div class="preloader-shade"></div>
+                <div class="preloader-wrap"></div>
+                <div class="preloader-wrap wrap2"></div>
+                <div class="preloader-wrap wrap3"></div>
+                <div class="preloader-wrap wrap4"></div>
+                <div class="preloader-wrap wrap5"></div>
+            </div>
+        </div>
+        <!-- Header -->
+        {% include "includes/header.html" %}
+        <!-- Header End -->
+        <div class="page-content bg-white">
+            {% block content %}
+            
+            <!--Swiper Bannière Start -->
+            {% include "includes/banniere_slider.html" %}
+            <!--Swiper Bannière End-->
+
+            <!--Recommandation et icon_box Section Start-->
+            {% include "includes/recommandation.html" %}
+            <!--Recommandation et icon_box Section End-->
+
+            <!-- Livres_en_vente Start -->
+            {% include "includes/livres_envente.html" %}
+            <!-- Livres_en_vente End -->
+
+            <!-- Feature Product Start-->
+            {% include "includes/produit_phare.html" %}
+            <!-- Feature Product End -->
+
+            <!-- Special Offer-->
+            {% include "includes/offre_special.html" %}
+            <!-- Special Offer End -->
+
+            <!-- Testimonial -->
+            {% include "includes/temoignage.html" %}
+            <!-- Testimonial End -->
+
+            <!-- Latest News -->
+            {% include "includes/dernieres_nouvelles.html" %}
+            <!-- Latest News End -->
+
+            {% endblock content %}
+            
+            <!-- Feature Box -->
+            {% include "includes/compteur.html" %}
+            <!-- Feature Box End -->
+
+            <!-- Newsletter -->
+            {% include "includes/newsletter.html" %}
+            <!-- Newsletter End -->
+        </div>
+        <!-- Footer Start-->
+        {% include "includes/footer.html" %}
+        <!-- Footer End -->
+        <button class="scroltop" type="button"><i class="fas fa-arrow-up"></i></button>
+    </div>
+    {% include "includes/foot.html" %}
+</body>
+<!-- Mirrored from bookland.dexignzone.com/xhtml/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 13 Nov 2023 16:03:58 GMT -->
+</html>

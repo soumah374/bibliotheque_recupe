@@ -1,0 +1,130 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-solid fa-rectangle-ad">
+                <h3 class="h3">Rechercher un utilisateur<a href="#" class="btn btn-sm btn-outline-info">Manage
+                        Products</a></h3>
+            </div>
+
+            <div class="actions">
+                <form action="#" class="search flex-wrap flex-md-nowrap">
+                    <input type="text" class="form-control" placeholder="Utilisateur" required>
+                    <select name="select" class="form-control">
+                        <option value="" selected>Utilisateur </option>
+                    </select>
+                    <button type="submit" class="btn btn-rounded"><i class="fa fa-search"></i></button>
+                </form>
+
+                <a href="{% url 'accounts:create'%}" class="addProduct btn btn-lg btn-rounded btn-warning">Ajouter un
+                    utilisateur</a>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+        <!-- Records List Start -->
+        <div class="records--list" data-title="Liste des Utilisateur">
+            <table id="recordsListView">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th class="not-sortable">Image</th>
+                        <th>Prénoms</th>
+                        <th>Nom</th>
+                        <th>Adresse</th>
+                        <th>Email</th>
+                        <th>Téléphone</th>
+                        <th>Profession</th>
+                        <th>Sexe</th>
+                        <th>Nature Client</th>
+                        <th>Est en Staff</th>
+                        <th>Est Admin</th>
+                        <th>Statut</th>
+                        <th class="not-sortable">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for u in utilisateurs %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>
+                            {% if u.photo %}
+                            <img height="100" width="100" src=" {{ u.photo.url }} " alt="">
+                            {% endif %}
+                        </td>
+                        <td>{{u.prenoms}}</td>
+                        <td>{{u.nom}}</td>
+                        <td>{{u.adresse}}</td>
+                        <td>{{u.email}}</td>
+                        <td>{{u.tel}}</td>
+                        <td>{{u.profession}}</td>
+                        <td>{{u.sexe}}</td>
+                        <td>{{u.nature_client}}</td>
+                        <td>
+                            <form method="post" action=" {% url 'accounts:update_staff' %} ">
+                                {% csrf_token %}
+                                <input type="text" name="is_staff" value="{{u.is_staff}}" hidden>
+                                <input type="text" name="id_staff" value="{{u.id}}" hidden>
+                                {% if u.is_staff %}
+                                <button type="submit" class="label label-success">En Staff</button>
+                                {% else %}
+                                <button type="submit" class="label label-warning">Pas en Staff</button>
+                                {% endif %}
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post" action="{% url 'accounts:update_admin' %}">
+                                {% csrf_token %}
+                                <input type="text" name="is_admin" value="{{ u.is_admin }}" hidden>
+                                <input type="text" name="id_admin" value="{{ u.id }}" hidden>
+                                {% if u.is_admin %}
+                                <button type="submit" class="label label-success">Admin</button>
+                                {% else %}
+                                <button type="submit" class="label label-warning">Pas Admin</button>
+                                {% endif %}
+                            </form>
+                        </td>
+                        <td>
+                            <form method="post" action="{% url 'accounts:update_etat' %}">
+                                {% csrf_token %}
+                                <input type="text" name="is_active" value="{{ u.is_active }}" hidden>
+                                <input type="text" name="id_etat" value="{{ u.id }}" hidden>
+                                {% if u.is_active %}
+                                <button type="submit" class="label label-success">Actif</button>
+                                {% else %}
+                                <button type="submit" class="label label-warning">Suspendu</button>
+                                {% endif %}
+                            </form>
+                        </td>
+                        <td>
+                            <div class="dropleft">
+                                <a href="#" class="btn-link" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+
+                                <div class="dropdown-menu">
+                                    <a href="{% url 'accounts:detail' u.slug %}" class="dropdown-item">DETAIL</a>
+                                    <a href="{% url 'accounts:update' u.slug %}" class="dropdown-item">MODIFIER</a>
+                                    <form action="{% url 'accounts:delete' u.slug %}" method="post"
+                                        style="display: inline" data-bs-placement="top" data-bs-toggle="tooltip"
+                                        title="Supprimer">
+                                        {% csrf_token %}
+                                        <button class="btn  btn-sm btn- delete-confirm dropdown-item"
+                                            type="submit">Supprimer</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Records List End -->
+    </div>
+</section>
+{% endblock content %}

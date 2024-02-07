@@ -1,0 +1,120 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <!-- Records Header Start -->
+        <div class="records--header">
+            <div class="title fa-shopping-bag">
+                <h3 class="h3">Les détails sur le livre<a href=" {% url 'livre:index' %} "
+                        class="btn btn-sm btn-outline-info">Retour à la liste</a></h3>
+            </div>
+        </div>
+        <!-- Records Header End -->
+    </div>
+
+    <div class="panel">
+
+        <!-- View Order Start -->
+        <div class="records--body">
+            <div class="title">
+                <h6 class="h6">Catégorie du Livre: {{livre.categorie}}</h6>
+            </div>
+
+            <!-- Tabs Nav Start -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a href="#tab01" data-toggle="tab" class="nav-link active">Aperçu</a>
+                </li>
+            </ul>
+            <!-- Tabs Nav End -->
+
+            <!-- Tab Content Start -->
+            <div class="tab-content">
+                <!-- Tab Pane Start -->
+                <div class="tab-pane fade show active" id="tab01">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Les détails</h4>
+
+                            <table class="table table-simple">
+                                <tbody>
+                                    <tr>
+                                        <td>Publier:</td>
+                                        {% if livre.publier == 0 %}
+                                        <th>NON</th>
+                                        {% else %}
+                                        <th>OUI</th>
+                                        {% endif %}
+                                    </tr>
+                                    <tr>
+                                        <td>Catégorie:</td>
+                                        <th><a href="#" class="btn-link">{{livre.categorie}}</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Titre:</td>
+                                        <th><a href="#" class="btn-link">{{livre.titre}}</a></th>
+                                    </tr>
+                                    <tr>
+                                        <td>Sous Titre:</td>
+                                        <th>{{livre.sous_titre}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Numéro du Livre:</td>
+                                        <th>{{livre.num_livre}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Auteur:</td>
+                                        <th>{{livre.auteur}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Langue:</td>
+                                        <th>{{livre.langue}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Année de Publication:</td>
+                                        <th>{{livre.annee}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Distinction:</td>
+                                        <th>{{livre.distinction}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Nbre d'Exemplaire:</td>
+                                        <th>{{livre.nbre_exemplaire}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Prix de vente:</td>
+                                        <th>{{livre.prix_vente}}</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Resumé du Livre:</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="container">
+                                <p>{{livre.resume}}</p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <h4 class="subtitle">Images</h4>
+                            {% if livre.photo_livre %}
+                            <img class="img-fluid" src="{{livre.photo_livre.url}}" alt="" />
+                            {% else %}
+                            <h4 class="text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><path d="M160 80H512c8.8 0 16 7.2 16 16V320c0 8.8-7.2 16-16 16H490.8L388.1 178.9c-4.4-6.8-12-10.9-20.1-10.9s-15.7 4.1-20.1 10.9l-52.2 79.8-12.4-16.9c-4.5-6.2-11.7-9.8-19.4-9.8s-14.8 3.6-19.4 9.8L175.6 336H160c-8.8 0-16-7.2-16-16V96c0-8.8 7.2-16 16-16zM96 96V320c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H160c-35.3 0-64 28.7-64 64zM48 120c0-13.3-10.7-24-24-24S0 106.7 0 120V344c0 75.1 60.9 136 136 136H456c13.3 0 24-10.7 24-24s-10.7-24-24-24H136c-48.6 0-88-39.4-88-88V120zm208 24a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"/></svg>
+                                Image non Définie
+                            </h4>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Tab Content End -->
+        </div>
+        <!-- View Order End -->
+    </div>
+</section>
+{% endblock content %}

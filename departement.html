@@ -1,0 +1,62 @@
+{% extends "admin/dashboard.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+<section class="main--content">
+    <div class="panel">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="h3">Ajouter un Département</h3>
+                <br>
+                <form action="" method="post">
+                    {% csrf_token %}
+                    <div class="col-md-12">
+                        {{form.libelle_depart|as_crispy_field}}
+                    </div>
+                    <button type="submit" class="addProduct btn btn-lg btn-rounded btn-warning">{{ name }}</button>
+                   </form>
+            </div>
+          </div>
+    </div>
+
+    <div class="panel">
+        <!-- Records List Start -->
+        <div class="records--list" data-title="Liste des Département">
+            <table id="recordsListView">
+                <thead>
+                    <tr>
+                        <th>N°</th>
+                        <th>Département</th>
+                        <th class="not-sortable">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for depart in departement %}
+                    <tr>
+                        <td>{{forloop.counter}}</td>
+                        <td>{{depart.libelle_depart}}</td>
+                        <td>
+                            <div class="dropleft">
+                                <a href="#" class="btn-link" data-toggle="dropdown"><i class="fa fa-ellipsis-v"></i></a>
+                                <div class="dropdown-menu">
+                                    <a href="{% url 'departement:update' depart.slug %}" class="dropdown-item">MODIFIER</a>
+                                    <form action="{% url 'departement:delete' depart.slug %}" method="post"
+                                        style="display: inline" data-bs-placement="top" data-bs-toggle="tooltip"
+                                        title="Supprimer">
+                                        {% csrf_token %}
+                                        <button class="btn  btn-sm btn- delete-confirm dropdown-item"
+                                            type="submit">Supprimer</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        <!-- Records List End -->
+    </div>
+</section>
+<!-- Main Content End -->
+{% endblock content %}

@@ -1,0 +1,165 @@
+{% load static %}
+<aside class="sidebar" data-trigger="scrollbar">
+    <!-- Sidebar Profile Start -->
+    <div class="sidebar--profile">
+        <div class="profile--img">
+            <a href="#">
+                {% if user.photo %}
+                <img src="{{user.photo.url}}" alt="" class="rounded-circle">
+                {% endif %}
+            </a>
+        </div>
+
+        <div class="profile--name">
+            <a href="" class="btn-link">{{user.prenoms}} {{user.nom}}</a>
+        </div>
+
+        <div class="profile--nav">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a href="{% url 'accounts:mon_profile' %}" class="nav-link" title="Mon Profile">
+                        <i class="fa fa-user"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'accounts:update_password' %}" class="nav-link" title="Changer mon Mot de passe">
+                        <i class="fa fa-lock"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="{% url 'deconnexion' %}" class="nav-link" title="Déconnexion">
+                        <i class="fa fa-sign-out-alt"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- Sidebar Profile End -->
+
+    <!-- Sidebar Navigation Start -->
+    <div class="sidebar--nav">
+        <ul>
+            <li>
+                <ul>
+                    <li class="active">
+                        <a href="{% url 'dashboard' %}">
+                            <i class="fa fa-home"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Paramètres</a>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th"></i>
+                            <span>Livre</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'vente_livre:index' %}">Liste des ventes</a></li>
+                            <li><a href="{% url 'livre:index' %}">Liste des Livres</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Emprunt Livre</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'emprunt:index' %}">Liste des Emprunts</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Memoire</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'memoire:index' %}">Liste des Memoires</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Auteur</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'auteur:index' %}">Liste des Auteurs</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Publication</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'actualite:index' %}">Liste des Publications</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Catégorie</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'categorie:categorie' %}">Liste des Catégories</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Département</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'departement:departe' %}">Liste des Départements</a></li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Utilisateurs</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'accounts:index' %}">Liste des Utilisateurs</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-th-list"></i>
+                            <span>Notifications</span>
+                        </a>
+                        <ul>
+                            <li><a href="{% url 'message-index' %}">Liste des Messages</a></li>
+                            <li><a href="">Liste des Abonné(e)s</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#">Configuration</a>
+                <ul>
+                    <li>
+                        <a href="{% url 'configuration:index' %}">
+                            <i class="fa fa-file"></i>
+                            <span>Nouvelle Configuration</span>
+                        </a>
+                        <a href="{% url 'deconnexion' %}">
+                            <i class="fa fa-file"></i>
+                            <span>Déconnexion</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!-- Sidebar Navigation End -->
+</aside>

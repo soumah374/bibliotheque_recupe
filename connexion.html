@@ -1,0 +1,83 @@
+{% extends "index.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<div class="page-content">
+    <!-- inner page banner -->
+    <div class="dz-bnr-inr overlay-secondary-dark dz-bnr-inr-sm"
+        style="background-image:url(images/background/bg3.jpg);">
+        <div class="container">
+            <div class="dz-bnr-inr-entry">
+                <h1>Page de Connexion</h1>
+                <nav aria-label="breadcrumb" class="breadcrumb-row">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="{% url 'index' %}"> Accueil</a></li>
+                        <li class="breadcrumb-item">Connexion</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- inner page banner End-->
+
+    <!-- contact area -->
+    <section class="content-inner shop-account">
+        <!-- Product -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-6 mb-4">
+                    <div class="login-area">
+                        <div class="tab-content">
+                            <h3>Notification de réinitialisation du mot de passe</h3>
+                            <p class="font-weight-600"><strong>Cher(e) utilisateur(trice),</strong></p>
+                            <p class="font-weight-600">Nous vous informons que nous avons bien reçu votre demande de
+                                réinitialisation de mot de passe. Nous avons envoyé un courriel contenant les
+                                instructions nécessaires à l'adresse que vous avez indiquée. Veuillez vous assurer de
+                                consulter votre boîte de réception rapidement.</p>
+                            <p class="font-weight-600">Si toutefois vous ne recevez pas ce message dans les prochaines
+                                minutes, veuillez prendre en compte les points suivants :</p>
+                            <ol type="1">
+                                <li><strong>Vérifiez votre adresse e-mail :</strong>Assurez-vous d'avoir saisi
+                                    correctement l'adresse e-mail associée à votre compte.</li>
+                                <li><strong>Dossier de pourriels (spam) :</strong>Les filtres de messagerie peuvent
+                                    parfois déplacer nos messages vers le dossier de pourriels. Veuillez vérifier ce
+                                    dossier au cas où notre courriel s'y trouverait.</li>
+                            </ol>
+                            <p class="font-weight-600">Si le problème persiste ou si vous avez d'autres questions,
+                                n'hésitez pas à nous contacter en répondant à ce message ou en utilisant les coordonnées
+                                du support client fournies sur notre site web.</p>
+                            <p class="font-weight-600">Nous vous remercions de votre compréhension et de votre confiance.</p>
+                            <p class="font-weight-600">Cordialement,</p>
+                            <p class="font-weight-600">RISTEL, l'équipe technique.</p>
+                            <a class="btn btn-primary btnhover m-r5 button-lg radius-no"
+                                href="{% url 'index' %}">Retour sur le site</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-6 col-md-6 mb-4">
+                    <div class="login-area">
+                        <div class="tab-content nav">
+                            <form method='POST'  class="tab-pane active col-12">
+                                {% csrf_token %}
+                                <h4 class="text-secondary">CONNECTEZ - VOUS</h4>
+                                <p class="font-weight-600">Si vous avez un compte chez nous, veuillez vous connecter.
+                                </p>
+                                <div class="mb-4">
+                                    {{form|crispy}}
+                                </div>
+                                <div class="text-left">
+                                    <button type="submit" class="btn btn-primary btnhover me-2">se connecter</button>
+                                    <a href="{% url 'accounts:password_reset' %}" class="m-l5"><i class="fas fa-unlock-alt"></i> Mot de passe oublié</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+        <!-- Product END -->
+    </section>
+    <!-- contact area End-->
+</div>
+{% endblock content %}
